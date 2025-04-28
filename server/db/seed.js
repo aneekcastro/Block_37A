@@ -1,6 +1,7 @@
 const db = require('./client');
 const { hashPassword } = require('../utils/hash');
-const faker = require('faker');
+const { faker } = require('@faker-js/faker');
+
 
 async function seed() {
   try {
@@ -76,3 +77,7 @@ async function seed() {
 }
 
 seed();
+
+const { faker } = require('@faker-js/faker');
+
+
